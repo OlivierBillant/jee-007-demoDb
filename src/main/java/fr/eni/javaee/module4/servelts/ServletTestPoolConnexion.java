@@ -1,4 +1,4 @@
-package fr.eni.javaee.module4;
+package fr.eni.javaee.module4.servelts;
 
 import java.io.IOException;
 import java.io.PrintWriter;
