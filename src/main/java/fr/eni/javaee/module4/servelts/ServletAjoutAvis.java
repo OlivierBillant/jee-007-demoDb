@@ -34,7 +34,7 @@ public class ServletAjoutAvis extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/modules/module4/demonstrations/ajoutAvis.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/ajoutAvis.jsp");
 		rd.forward(request, response);
 	}
 	/**
@@ -60,7 +60,7 @@ public class ServletAjoutAvis extends HttpServlet {
 			request.setAttribute("listeCodesErreur", e.getListeCodesErreur());
 		}
 		
-		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/modules/module4/demonstrations/ajoutAvis.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/ajoutAvis.jsp");
 		rd.forward(request, response);
 	}
 
